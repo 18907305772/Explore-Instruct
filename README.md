@@ -15,6 +15,7 @@ Explore-Instruct: Enhancing Domain-Specific Instruction Coverage through Active 
 <h4> |<a href="https://arxiv.org/abs/2305.xxxxx"> 📑 Paper </a> |
 <a href="https://huggingface.co/datasets?sort=trending&search=Explore_Instruct"> 🤗 Data </a> |  
 <a href="https://huggingface.co/models?sort=trending&search=Explore-LM"> 🤗 Model </a> |
+<a href="https://github.com/fanqiwan/Explore-Instruct"> 🐱 Github Repo </a> |
 </h4>
 
 <!-- **Authors:** -->
