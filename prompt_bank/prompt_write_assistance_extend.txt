@@ -1,0 +1,29 @@
+You are asked to propose some new subtasks for the target task given a list of existing subtasks and another list of existing peer tasks, then generate a set of examples for each new subtask. Each example consists of an instruction, an input, and an output.
+
+Here are the requirements:
+1. The skills required to perform a subtask belong to the skills required to perform the target task, and the former is a subset of the latter.
+2. The skills required to perform a peer task relate to the skills required to perform the target task. There is an intersection of the former and the latter.
+3. The subtask and peer task should focus on common domains, not specific domains.
+4. A new subtask is complementary to existing subtasks, and the addition of a new subtask is essential to the completion of the target task.
+5. The new subtask should be different from the existing subtasks and peer tasks. The skills required for a new subtask should be designed to avoid overlapping with existing subtasks and peer tasks.
+6. The instruction should be in English.
+7. The instruction should be 1 to 2 sentences long. Either an imperative sentence or a question is permitted.
+8. The instruction should not contain specific examples and detailed content.
+9. Try not to repeat the verb for each instruction in the examples to maximize diversity.
+10. The instruction should be able to complete by a GPT language model. For example, the instruction should not ask the assistant to create any visual or audio output. For another example, do not ask the assistant to wake you up at 5 pm or set a reminder because it cannot perform any action.
+11. You should create an appropriate input based on the instruction in an example, but the input should not respond to the instruction. The input should involve realistic data and should not contain simple placeholders. The input should provide substantial content to make the instruction challenging but do not exceed 200 words in general.
+12. The input should include detailed content of a passage or an article if instructed, but not any overview or description about it.
+13. You should generate an appropriate output according to the instruction and depending on the input in an example. Make sure the output is less than 200 words in general.
+14. The response you generated should conform to the following format:
+New subtask: ____
+Reason: ____
+Examples:
+###
+1. Instruction: ____
+Input: ____
+Output: ____
+###
+2. Instruction: ____
+Input: ____
+Output: ____
+###

@@ -1,0 +1,18 @@
+You are asked to generate a set of examples for a new subtask. Each example consists of an instruction, an input, and an output.
+
+Here are the requirements:
+1. The skills required to perform a subtask belong to the skills required to perform the target task, and the former is a subset of the latter.
+2. The instruction should be in English. The instruction should be 1 to 2 sentences long. Either an imperative sentence or a question is permitted.
+3. You should create an appropriate input based on the instruction in an example. The input should involve realistic data and should not contain simple placeholders. The input should provide substantial content to make the instruction challenging but do not exceed 200 words in general.
+4. The input should include detailed content of a passage or an article if instructed, but not any overview or description about it.
+5. You should generate an appropriate output according to the instruction and depending on the input in an example. Make sure the output is less than 200 words in general.
+6. The response you generated should conform to the following format:
+###
+1. Instruction: ____
+Input: ____
+Output: ____
+###
+2. Instruction: ____
+Input: ____
+Output: ____
+###

@@ -1,0 +1,20 @@
+You are asked to generate a set of examples for a new subtask. Each example consists of an instruction, an input, and an output.
+
+Here are the requirements:
+1. The skills required to perform a subtask belong to the skills required to perform the target task, and the former is a subset of the latter.
+2. The instruction should be in English. The instruction should be 1 to 2 sentences long. Either an imperative sentence or a question is permitted.
+3. Try not to repeat the verb for each instruction in the examples to maximize diversity.
+4. You should create an appropriate input based on the instruction in an example. The input should be a math problem in latex format. The input should provide substantial content to make the instruction challenging but do not exceed 200 words in general.
+5. Note that some instructions do not require input. For example, when an instruction contain a math question, eg: "Reduce to lowest terms: $- \\dfrac{1}{9} \\div \\dfrac{9}{5} = {?}$", it is not necessary to provide a specific context in input. In this case, we simply put "<noinput>" in the input field.
+6. You should generate an appropriate output according to the instruction and depending on the input in an example.
+7. The output should in latex format. You should generate the "Explanation:" to the math problem first and then extract & show the "Answer:" (the final value of "Answer:" should be in the form \\boxed{value of "Answer:"}), eg: "Explanation: Dividing by a fraction is the same as multiplying by the reciprocal of the fraction. The reciprocal of $ \\dfrac{9}{5}$ is $ \\dfrac{5}{9}$ Therefore: $ - \\dfrac{1}{9} \\div \\dfrac{9}{5} = - \\dfrac{1}{9} \\times \\dfrac{5}{9} $ $ \\phantom{- \\dfrac{1}{9} \\times \\dfrac{5}{9}} = \\dfrac{-1 \\times 5}{9 \\times 9} $ $ \\phantom{- \\dfrac{1}{9} \\times \\dfrac{5}{9}} = \\dfrac{-5}{81} $. Answer: $\\boxed{\\dfrac{-5}{81}}$.". Make sure the output is less than 200 words in general.
+8. The response you generated should conform to the following format:
+###
+Instruction: ____
+Input: ____
+Output: ____
+###
+Instruction: ____
+Input: ____
+Output: ____
+###

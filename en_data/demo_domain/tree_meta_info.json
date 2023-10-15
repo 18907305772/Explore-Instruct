@@ -1,0 +1,7 @@
+{
+  "raw_task_name": "Demo root",
+  "task_name": "demo_root",
+  "config_filename": "demo_root.json",
+  "children": [
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "raw_task_name": "Demo root",
+    "task_name": "demo_root",
+    "config_filename": "demo_root.json",
+    "reason": "",
+    "examples":
+    [
+        {
+            "instruction": "demo instruction",
+            "input": "demo input",
+            "output": "demo output"
+        }
+    ]
+}
