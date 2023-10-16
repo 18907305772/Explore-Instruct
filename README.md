@@ -197,9 +197,9 @@ python3 generate_instruction.py \
 
 We fine-tune LLaMA-7B with the following hyperparameters:
 
-| Hyperparameter  |  Global Batch Size |  Learning rate |  Epochs |  Max length |  Weight decay |
-|:----------------|-------------------:|---------------:|--------:|------------:|--------------:|
-| LLaMA 7B        |                128 |           2e-5 |       3 |        2048 |             0 |
+| Hyperparameter  |  Global Batch Size |  Learning rate |  Epochs | Max length |  Weight decay |
+|:----------------|-------------------:|---------------:|--------:|-----------:|--------------:|
+| LLaMA 7B        |                128 |           2e-5 |       3 |        512 |             0 |
 
 To reproduce the training procedure, please use the following command:
  
