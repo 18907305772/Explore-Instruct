@@ -260,7 +260,7 @@ python3 ./eval/generate.py \
     --prompt_type alpaca \
     --do_sample
 
-2. Evaluation
+# 2. Evaluation
 python3 ./eval/chatgpt_score.py \
     --baseline_file ./eval/answer/<MODEL_1>.jsonl \  # answer of baseline model to compare with
     --answer_file ./eval/answer/<MODEL_2>.jsonl \  # answer of evaluation model
@@ -286,10 +286,10 @@ python3 ./eval/generate.py \
     --max_new_tokens 512 \
     --prompt_type alpaca
 
-2. Evaluation
+# 2. Evaluation
 python3 ./eval/auto_eval.py \
     --question_file ./eval/question/MATH_eval_set_sample.jsonl \
-    --answer_file ./eval/answer/<MODEL_ID>.jsonl
+    --answer_file ./eval/answer/<MODEL_ID>.jsonl  # answer of evaluation model
 ```
 
 ## Limitations
