@@ -12,7 +12,7 @@ Explore-Instruct: Enhancing Domain-Specific Instruction Coverage through Active 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-<h4> |<a href="https://arxiv.org/abs/2305.xxxxx"> 📑 Paper </a> |
+<h4> |<a href="https://arxiv.org/abs/2310.09168"> 📑 Paper </a> |
 <a href="https://huggingface.co/datasets?sort=trending&search=Explore_Instruct"> 🤗 Data </a> |  
 <a href="https://huggingface.co/models?sort=trending&search=Explore-LM"> 🤗 Model </a> |
 <a href="https://github.com/fanqiwan/Explore-Instruct"> 🐱 Github Repo </a> |
@@ -308,7 +308,7 @@ If you find this work is relevant with your research or applications, please fee
    title={Explore-Instruct: Enhancing Domain-Specific Instruction Coverage through Active Exploration},
    author={Fanqi, Wan and Xinting, Huang and Tao, Yang and Xiaojun, Quan and Wei, Bi and Shuming, Shi},
    year={2023},
-   eprint={2305.xxxxx},
+   eprint={2310.09168},
    archivePrefix={arXiv},
    primaryClass={cs.CL}
 }
