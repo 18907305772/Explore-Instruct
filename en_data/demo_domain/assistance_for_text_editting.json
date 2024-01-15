@@ -1,0 +1,18 @@
+{
+  "raw_task_name": "Assistance for text editting",
+  "task_name": "assistance_for_text_editting",
+  "config_filename": "assistance_for_text_editting.json",
+  "reason": "",
+  "examples": [
+    {
+      "instruction": "Rewrite this text in another way",
+      "input": "People often think of cats as mysterious creatures because they are especially active at night. Also, their eyes can glow an eerie green light in the dark.",
+      "output": "Cats are often considered mystical creatures because they are particularly active at night. Also, their eyes can emit a strange green glow in dark environments."
+    },
+    {
+      "instruction": "Extend the content from the brief description below.",
+      "input": "This is a great phone with a high-resolution display.",
+      "output": "This is an excellent phone with a high-performance processor for faster performance and smoother multitasking. Furthermore, it has a high-resolution display for crisp, vibrant images , allowing users to enjoy a better visual experience."
+    }
+  ]
+}

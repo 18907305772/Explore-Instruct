@@ -1,7 +1,64 @@
 {
-  "raw_task_name": "Demo root",
-  "task_name": "demo_root",
-  "config_filename": "demo_root.json",
+  "raw_task_name": "Assistance for text editting",
+  "task_name": "assistance_for_text_editting",
+  "config_filename": "assistance_for_text_editting.json",
+  "reason": "",
   "children": [
+    {
+      "raw_task_name": "Paraphrase",
+      "task_name": "paraphrase",
+      "config_filename": "paraphrase.json",
+      "reason": "The purposes of paraphrasing are to show understanding, make ideas accessible, translate technical language, avoid plagiarism, compare perspectives, and aid memorization. The ability to paraphrase skillfully is a valuable tool for write assistance.",
+      "children": []
+    },
+    {
+      "raw_task_name": "Style transfer",
+      "task_name": "style_transfer",
+      "config_filename": "style_transfer.json",
+      "reason": "It can improve writing efficiency and text diversity, while stimulating creativity and enriching the expression of text, bringing a better writing experience.",
+      "children": []
+    },
+    {
+      "raw_task_name": "Simplify language",
+      "task_name": "simplify_language",
+      "config_filename": "simplify_language.json",
+      "reason": "The purpose of this task is to make the original language more accessible to the broad masses of the people. Justifications may include documentation needs for different audiences, such as educational materials, government announcements, etc.",
+      "children": []
+    },
+    {
+      "raw_task_name": "Text expansion",
+      "task_name": "text_expansion",
+      "config_filename": "text_expansion.json",
+      "reason": "Text expansion refers to expanding a piece of text, adding content and details, to help writers better express their thoughts and opinions, and to make the text easier for readers to understand.",
+      "children": []
+    },
+    {
+      "raw_task_name": "Fix spelling and grammar",
+      "task_name": "fix_spelling_and_grammar",
+      "config_filename": "fix_spelling_and_grammar.json",
+      "reason": "The purpose of fix spelling and grammar is to help users create more accurate, professional text and improve the quality of their writing.",
+      "children": []
+    },
+    {
+      "raw_task_name": "Language style simulation",
+      "task_name": "language_style_simulation",
+      "config_filename": "language_style_simulation.json",
+      "reason": "The purpose of this task is to help users create more focused and expressive text, and to improve the accuracy and professionalism of their writing.",
+      "children": []
+    },
+    {
+      "raw_task_name": "Coherence and cohesion improvement",
+      "task_name": "coherence_and_cohesion_improvement",
+      "config_filename": "coherence_and_cohesion_improvement.json",
+      "reason": "Detect and improve logical coherence in text and cohesion between paragraphs. The purpose of this task is to help users create more coherent, logical and organized text",
+      "children": []
+    },
+    {
+      "raw_task_name": "Writing enhancement",
+      "task_name": "writing_enhancement",
+      "config_filename": "writing_enhancement.json",
+      "reason": "The purpose of write enhancement is to improve the expressiveness and professionalism of text to make it more lively, precise and readable.",
+      "children": []
+    }
   ]
 }
