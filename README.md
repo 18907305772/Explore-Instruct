@@ -6,11 +6,11 @@
 Explore-Instruct: Enhancing Domain-Specific Instruction Coverage through Active Exploration
 -----------------------------
 
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE)
-[![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE)
-[![Weight License](https://img.shields.io/badge/Weight%20License-CC%20By%20NC%204.0-yellow)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/WEIGHT_DIFF_LICENSE)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+<img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version"> 
+<img src="https://img.shields.io/badge/License-Apache_2.0-green.svg" alt="License">
+<img src="https://img.shields.io/github/stars/fanqiwan/Explore-Instruct?color=yellow" alt="Stars">
+<img src="https://img.shields.io/github/issues/fanqiwan/Explore-Instruct?color=red" alt="Issues">
+
 
 <h4> |<a href="https://arxiv.org/abs/2310.09168"> 📑 Paper </a> |
 <a href="https://huggingface.co/datasets?sort=trending&search=Explore_Instruct"> 🤗 Data </a> |  
