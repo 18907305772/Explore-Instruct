@@ -13,9 +13,8 @@ Explore-Instruct: Enhancing Domain-Specific Instruction Coverage through Active 
 
 
 <h4> |<a href="https://arxiv.org/abs/2310.09168"> 📑 Paper </a> |
-<a href="https://huggingface.co/datasets?sort=trending&search=Explore_Instruct"> 🤗 Data </a> |  
-<a href="https://huggingface.co/models?sort=trending&search=Explore-LM"> 🤗 Model </a> |
-<a href="https://github.com/fanqiwan/Explore-Instruct"> 🐱 Github Repo </a> |
+<a href="https://huggingface.co/collections/Wanfq/explore-instruct-65280973f74b8bf3e9f9bd7e"> 🤗 HuggingFace Repo </a> |
+<a href="https://github.com/fanqiwan/Explore-Instruct"> 🐱 GitHub Repo </a> |
 </h4>
 
 <!-- **Authors:** -->
@@ -44,9 +43,7 @@ _<sup>†</sup> Sun Yat-sen University,
 - [Fine-tuning](#fine-tuning)
 - [Evaluation](#evaluation)
 - [Limitations](#limitations)
-- [License](#license)
 - [Citation](#citation)
-- [Acknowledgements](#acknowledgments)
 
 ## Overview
 
@@ -296,24 +293,15 @@ python3 ./eval/auto_eval.py \
 
 Explore-Instruct is still under development and needs a lot of improvements. We acknowledge that our work focuses on the enhancement of domain-specific instruction coverage and does not address other aspects of instruction-tuning, such as the generation of complex and challenging instructions or the mitigation of toxic and harmful instructions. Future work is needed to explore the potential of our approach in these areas.
 
-## License
-
-Explore-Instruct is intended and licensed for research use only. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes. The weights of Explore-LM models are also CC BY NC 4.0 (allowing only non-commercial use).
-
 ## Citation
 
 If you find this work is relevant with your research or applications, please feel free to cite our work!
 ```
-@misc{wan2023explore,
-   title={Explore-Instruct: Enhancing Domain-Specific Instruction Coverage through Active Exploration},
-   author={Fanqi, Wan and Xinting, Huang and Tao, Yang and Xiaojun, Quan and Wei, Bi and Shuming, Shi},
-   year={2023},
-   eprint={2310.09168},
-   archivePrefix={arXiv},
-   primaryClass={cs.CL}
+@inproceedings{wan2023explore,
+  title={Explore-Instruct: Enhancing Domain-Specific Instruction Coverage through Active Exploration},
+  author={Wan, Fanqi and Huang, Xinting and Yang, Tao and Quan, Xiaojun and Bi, Wei and Shi, Shuming},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={9435--9454},
+  year={2023}
 }
 ```
-
-## Acknowledgments
-
-This repo benefits from [Stanford-Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and [Vicuna](https://github.com/lm-sys/FastChat). Thanks for their wonderful works!
